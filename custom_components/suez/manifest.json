@@ -1,0 +1,10 @@
+{
+    "domain": "suez",
+    "name": "Suez Water",
+    "documentation": "https://raw.githubusercontent.com/adriencog/suez/master/README.md",
+    "codeowners": ["@adriencog"],
+    "issue_tracker": "https://github.com/adriencog/suez/issues",
+    "version": "v1.0.0",
+    "requirements": ["requests"],
+    "iot_class": "cloud_polling"
+  }
