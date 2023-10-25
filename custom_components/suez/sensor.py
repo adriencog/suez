@@ -4,8 +4,8 @@ from __future__ import annotations
 from datetime import timedelta
 import logging
 
-from pysuez import SuezClient
-from pysuez.client import PySuezError
+from custom_components.suez.client import SuezClient, PySuezError
+
 import voluptuous as vol
 
 from homeassistant.components.sensor import (
